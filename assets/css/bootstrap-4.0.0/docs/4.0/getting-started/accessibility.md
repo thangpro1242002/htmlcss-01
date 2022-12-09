@@ -1,5 +1,5 @@
 ---
-layout: docs
+layouts: docs
 title: Accessibility
 description: A brief overview of Bootstrap's features and limitations for the creation of accessible content.
 group: getting-started
