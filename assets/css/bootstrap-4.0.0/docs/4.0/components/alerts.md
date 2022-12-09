@@ -15,7 +15,7 @@ Alerts are available for any length of text, as well as an optional dismiss butt
 <div class="alert alert-{{ color.name }}" role="alert">
   This is a {{ color.name }} alert—check it out!
 </div>{% endfor %}
-{% endexample %}
+{{ endexample }}
 
 {% capture callout-include %}{% include callout-warning-color-assistive-technologies.md %}{% endcapture %}
 {{ callout-include | markdownify }}
@@ -29,7 +29,7 @@ Use the `.alert-link` utility class to quickly provide matching colored links wi
 <div class="alert alert-{{ color.name }}" role="alert">
   This is a {{ color.name }} alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
 </div>{% endfor %}
-{% endexample %}
+{{ endexample }}
 
 ### Additional content
 
@@ -42,7 +42,7 @@ Alerts can also contain additional HTML elements like headings, paragraphs and d
   <hr>
   <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
 </div>
-{% endexample %}
+{{ endexample }}
 
 
 ### Dismissing
@@ -64,7 +64,7 @@ You can see this in action with a live demo:
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
-{% endexample %}
+{{ endexample }}
 
 ## JavaScript behavior
 
